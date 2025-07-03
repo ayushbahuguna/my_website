@@ -33,7 +33,7 @@ export function Hero() {
           {/* Content */}
           <div className="flex-1 max-w-2xl">
             <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-4">
-              Hi, I'm{" "}
+              Hi, I&apos;m{" "}
               <span className="text-primary">{personalInfo.name}</span>
             </h1>
             

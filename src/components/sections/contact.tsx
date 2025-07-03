@@ -22,13 +22,14 @@ export function Contact() {
     reset,
   } = useForm<ContactFormData>()
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const onSubmit = async (data: ContactFormData) => {
     try {
       // Simulate sending data
       await new Promise((resolve) => setTimeout(resolve, 1000))
       toast.success("Message sent successfully!")
       reset()
-    } catch (error) {
+    } catch {
       toast.error("Failed to send message. Please try again later.")
     }
   }
@@ -37,11 +38,10 @@ export function Contact() {
     <section id="contact" className="py-20 bg-muted/50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Contact Me
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Contact Me</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Feel free to reach out if you have any questions, opportunities, or just want to connect.
+            Feel free to reach out if you have any questions, opportunities, or just want to
+            connect.
           </p>
         </div>
 
@@ -89,7 +89,9 @@ export function Contact() {
                 {...register("subject", { required: "Please enter a subject." })}
                 className="mt-1"
               />
-              {errors.subject && <p className="mt-1 text-xs text-red-500">{errors.subject.message}</p>}
+              {errors.subject && (
+                <p className="mt-1 text-xs text-red-500">{errors.subject.message}</p>
+              )}
             </div>
 
             <div>
@@ -102,7 +104,9 @@ export function Contact() {
                 rows={4}
                 className="mt-1"
               ></Textarea>
-              {errors.message && <p className="mt-1 text-xs text-red-500">{errors.message.message}</p>}
+              {errors.message && (
+                <p className="mt-1 text-xs text-red-500">{errors.message.message}</p>
+              )}
             </div>
 
             <div className="text-center">
@@ -116,4 +120,3 @@ export function Contact() {
     </section>
   )
 }
-
