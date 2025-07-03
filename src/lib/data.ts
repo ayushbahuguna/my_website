@@ -9,7 +9,7 @@ export const personalInfo: PersonalInfo = {
   email: "ayush.bahuguna12@gmail.com",
   phone: "+1 (555) 123-4567",
   website: "https://johndoe.dev",
-  avatar: withBasePath("/avatar.svg"),
+  avatar: withBasePath("/profile.jpeg"),
   resumeUrl: withBasePath("/resume.pdf"),
   socialLinks: [
     {
