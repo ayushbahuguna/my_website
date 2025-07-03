@@ -15,31 +15,41 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "John Doe - Full Stack Developer Portfolio",
-  description: "Passionate full-stack developer with 5+ years of experience building modern web applications. Explore my projects, skills, and professional journey.",
-  keywords: ["full stack developer", "react", "next.js", "typescript", "web development", "portfolio"],
-  authors: [{ name: "John Doe" }],
-  creator: "John Doe",
+  title: "Ayush Bahuguna - Full Stack Developer Portfolio",
+  description:
+    "Passionate full-stack developer with 5+ years of experience building modern web applications. Explore my projects, skills, and professional journey.",
+  keywords: [
+    "full stack developer",
+    "react",
+    "next.js",
+    "typescript",
+    "web development",
+    "portfolio",
+  ],
+  authors: [{ name: "Ayush Bahuguna" }],
+  creator: "Ayush Bahuguna",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://johndoe.dev",
-    title: "John Doe - Full Stack Developer Portfolio",
-    description: "Passionate full-stack developer with 5+ years of experience building modern web applications.",
-    siteName: "John Doe Portfolio",
+    title: "Ayush Bahuguna - Full Stack Developer Portfolio",
+    description:
+      "Passionate full-stack developer with 5+ years of experience building modern web applications.",
+    siteName: "Ayush Bahuguna Portfolio",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "John Doe - Full Stack Developer",
+        alt: "Ayush Bahuguna - Full Stack Developer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "John Doe - Full Stack Developer Portfolio",
-    description: "Passionate full-stack developer with 5+ years of experience building modern web applications.",
+    title: "Ayush Bahuguna - Full Stack Developer Portfolio",
+    description:
+      "Passionate full-stack developer with 5+ years of experience building modern web applications.",
     images: ["/og-image.jpg"],
     creator: "@johndoe",
   },
@@ -63,9 +73,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

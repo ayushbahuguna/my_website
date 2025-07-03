@@ -2,11 +2,11 @@ import { PersonalInfo, Project, Experience, Skill } from "@/types"
 import { withBasePath } from "./utils"
 
 export const personalInfo: PersonalInfo = {
-  name: "John Doe",
+  name: "Ayush Bahuguna",
   title: "Full Stack Developer",
   bio: "Passionate full-stack developer with 5+ years of experience building modern web applications. I love creating intuitive user experiences and robust backend systems using cutting-edge technologies.",
-  location: "San Francisco, CA",
-  email: "john.doe@example.com",
+  location: "New Delhi, IN",
+  email: "ayush.bahuguna12@gmail.com",
   phone: "+1 (555) 123-4567",
   website: "https://johndoe.dev",
   avatar: withBasePath("/avatar.svg"),
@@ -14,17 +14,17 @@ export const personalInfo: PersonalInfo = {
   socialLinks: [
     {
       name: "GitHub",
-      url: "https://github.com/johndoe",
+      url: "https://github.com/ayushbahuguna",
       icon: "github",
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/johndoe",
+      url: "https://www.linkedin.com/in/ayush-bahuguna-b10a4314b/",
       icon: "linkedin",
     },
     {
       name: "Twitter",
-      url: "https://twitter.com/johndoe",
+      url: "https://x.com/Bahuguna12Ayush",
       icon: "twitter",
     },
   ],
@@ -91,7 +91,7 @@ export const experiences: Experience[] = [
     company: "TechCorp Inc.",
     position: "Senior Full Stack Developer",
     duration: "2022 - Present",
-    location: "San Francisco, CA",
+    location: "New Delhi, IN",
     description: [
       "Led development of microservices architecture serving 1M+ users",
       "Implemented CI/CD pipelines reducing deployment time by 60%",
