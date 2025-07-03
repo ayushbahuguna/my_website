@@ -4,3 +4,6 @@ import { twMerge } from "tailwind-merge"
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
+
+// lib/utils.ts
+export const withBasePath = (path: string) => `${process.env.NEXT_PUBLIC_BASE_PATH || ""}${path}`
