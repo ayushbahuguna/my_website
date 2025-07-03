@@ -1,0 +1,13 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="400" fill="#f1f5f9"/>
+  <rect x="50" y="50" width="500" height="300" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+  <rect x="70" y="70" width="460" height="40" fill="#3b82f6"/>
+  <text x="300" y="95" text-anchor="middle" fill="white" font-family="system-ui" font-size="16" font-weight="600">E-Commerce Platform</text>
+  <rect x="70" y="130" width="150" height="100" rx="4" fill="#e2e8f0"/>
+  <rect x="240" y="130" width="150" height="100" rx="4" fill="#e2e8f0"/>
+  <rect x="410" y="130" width="150" height="100" rx="4" fill="#e2e8f0"/>
+  <rect x="70" y="250" width="150" height="80" rx="4" fill="#f8fafc"/>
+  <rect x="240" y="250" width="150" height="80" rx="4" fill="#f8fafc"/>
+  <rect x="410" y="250" width="150" height="80" rx="4" fill="#f8fafc"/>
+  <text x="300" y="370" text-anchor="middle" fill="#64748b" font-family="system-ui" font-size="14">Next.js • TypeScript • Stripe</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="400" fill="#f8fafc"/>
+  <rect x="50" y="50" width="500" height="300" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+  <rect x="70" y="70" width="460" height="40" fill="#10b981"/>
+  <text x="300" y="95" text-anchor="middle" fill="white" font-family="system-ui" font-size="16" font-weight="600">Task Management App</text>
+  <rect x="80" y="130" width="140" height="200" rx="6" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="150" y="150" text-anchor="middle" fill="#15803d" font-family="system-ui" font-size="12" font-weight="500">To Do</text>
+  <rect x="230" y="130" width="140" height="200" rx="6" fill="#fef3c7" stroke="#fde68a"/>
+  <text x="300" y="150" text-anchor="middle" fill="#92400e" font-family="system-ui" font-size="12" font-weight="500">In Progress</text>
+  <rect x="380" y="130" width="140" height="200" rx="6" fill="#ecfdf5" stroke="#86efac"/>
+  <text x="450" y="150" text-anchor="middle" fill="#166534" font-family="system-ui" font-size="12" font-weight="500">Done</text>
+  <rect x="90" y="165" width="120" height="30" rx="4" fill="#dcfce7"/>
+  <rect x="90" y="205" width="120" height="30" rx="4" fill="#dcfce7"/>
+  <rect x="240" y="165" width="120" height="30" rx="4" fill="#fef9c3"/>
+  <rect x="390" y="165" width="120" height="30" rx="4" fill="#d1fae5"/>
+  <rect x="390" y="205" width="120" height="30" rx="4" fill="#d1fae5"/>
+  <text x="300" y="370" text-anchor="middle" fill="#64748b" font-family="system-ui" font-size="14">React • Node.js • Socket.io</text>
+</svg>
