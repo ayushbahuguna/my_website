@@ -132,11 +132,12 @@ export const experiences: Experience[] = [
 
 export const skills: Skill[] = [
   // Frontend
+  { name: "Laravel", category: "frontend", proficiency: "expert" },
   { name: "React", category: "frontend", proficiency: "expert" },
   { name: "Next.js", category: "frontend", proficiency: "advanced" },
   { name: "TypeScript", category: "frontend", proficiency: "advanced" },
   { name: "Tailwind CSS", category: "frontend", proficiency: "advanced" },
-  { name: "Vue.js", category: "frontend", proficiency: "intermediate" },
+  // { name: "Vue.js", category: "frontend", proficiency: "intermediate" },
   { name: "HTML/CSS", category: "frontend", proficiency: "expert" },
 
   // Backend
@@ -147,21 +148,21 @@ export const skills: Skill[] = [
   { name: "GraphQL", category: "backend", proficiency: "intermediate" },
 
   // Database
-  { name: "PostgreSQL", category: "database", proficiency: "advanced" },
+  { name: "MySQL", category: "database", proficiency: "advanced" },
   { name: "MongoDB", category: "database", proficiency: "intermediate" },
-  { name: "Redis", category: "database", proficiency: "intermediate" },
-  { name: "Prisma", category: "database", proficiency: "advanced" },
+  // { name: "Redis", category: "database", proficiency: "intermediate" },
+  // { name: "Prisma", category: "database", proficiency: "advanced" },
 
   // Tools
   { name: "Git", category: "tools", proficiency: "expert" },
   { name: "Docker", category: "tools", proficiency: "intermediate" },
   { name: "AWS", category: "tools", proficiency: "intermediate" },
-  { name: "Vercel", category: "tools", proficiency: "advanced" },
+  // { name: "Vercel", category: "tools", proficiency: "advanced" },
   { name: "Jest", category: "tools", proficiency: "advanced" },
 
   // Languages
   { name: "JavaScript", category: "languages", proficiency: "expert" },
   { name: "TypeScript", category: "languages", proficiency: "advanced" },
-  { name: "Python", category: "languages", proficiency: "intermediate" },
+  // { name: "Python", category: "languages", proficiency: "intermediate" },
   { name: "SQL", category: "languages", proficiency: "advanced" },
 ]

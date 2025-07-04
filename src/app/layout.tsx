@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Ayush Bahuguna - Full Stack Developer Portfolio",
   description:
-    "Passionate full-stack developer with 5+ years of experience building modern web applications. Explore my projects, skills, and professional journey.",
+    "Passionate full-stack developer with 3+ years of experience building modern web applications. Explore my projects, skills, and professional journey.",
   keywords: [
     "full stack developer",
     "react",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     url: "https://johndoe.dev",
     title: "Ayush Bahuguna - Full Stack Developer Portfolio",
     description:
-      "Passionate full-stack developer with 5+ years of experience building modern web applications.",
+      "Passionate full-stack developer with 3+ years of experience building modern web applications.",
     siteName: "Ayush Bahuguna Portfolio",
     images: [
       {
@@ -49,9 +49,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ayush Bahuguna - Full Stack Developer Portfolio",
     description:
-      "Passionate full-stack developer with 5+ years of experience building modern web applications.",
+      "Passionate full-stack developer with 3+ years of experience building modern web applications.",
     images: ["/og-image.jpg"],
-    creator: "@johndoe",
+    creator: "@ayushbahuguna",
   },
   robots: {
     index: true,

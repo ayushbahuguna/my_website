@@ -41,15 +41,15 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a 
-              href="#home" 
+            <a
+              href="#home"
               className="text-xl font-bold text-foreground hover:text-primary transition-colors"
               onClick={(e) => {
                 e.preventDefault()
                 scrollToSection("#home")
               }}
             >
-              Portfolio
+              AB
             </a>
           </div>
 
@@ -80,11 +80,7 @@ export function Navigation() {
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               className="h-9 w-9"
             >
-              {theme === "dark" ? (
-                <Sun className="h-4 w-4" />
-              ) : (
-                <Moon className="h-4 w-4" />
-              )}
+              {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             </Button>
 
             {/* Mobile Menu */}
